@@ -2,12 +2,12 @@
 
 @font-face {
     font-family:'ringbearer';
-    src: url('ringm__.ttf');
+    src: url('RINGM__.TTF');
     font-weight: normal;
 } 
 :root {
-    --fonte1:'RINGM__.TTF', sans-serif;
-    --fonte2: 'ringm__.ttf', sans-serif;
+    --fonte1:'RINGM__.TTF';
+    --fonte2: 'ringm__.ttf';
 }
 
 * {
@@ -29,7 +29,7 @@ header {
 }
 header > h1 {
     color: rgba(230, 230, 55, 0.267);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: var(--fonte1);
     margin-bottom: 10px;
     font-size: 3em;
     font-weight: bold;
@@ -70,7 +70,7 @@ main h1 {
 main h2 {
     color: blue;
     font-size: 1.1em;
-    font-family:  var();
+    font-family:  var(--fonte1);
 }
 main p {
     margin: 15px 0px;
