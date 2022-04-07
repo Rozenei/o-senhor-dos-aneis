@@ -16,12 +16,12 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgb(170, 172, 125), rgb(20, 0, 0));
+    background-image: linear-gradient(to bottom, rgb(170, 172, 125), rgba(3, 1, 1, 0.041));
     font-family: 'Courier New', Courier, monospace;
 }
 header {
     background-image: linear-gradient(to bottom,
-     rgb(2, 5, 22), rgba(70, 151, 197, 0.37));
+     rgb(2, 5, 22), rgba(144, 223, 233, 0.603));
     color:rgb(31, 0, 0);
     min-width: 150px;
     text-align: center;
