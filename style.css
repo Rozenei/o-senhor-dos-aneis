@@ -67,7 +67,7 @@ main h1 {
     font-family: 'Arial Narrow';
     font: size 1.5em;
     font-weight: bold;
-    text-shadow: 1px 1px 0px rgba(232, 240, 252, 0.993);
+    text-shadow: 1px 1px 0px rgba(15, 15, 15, 0.993);
 }
 main h2 {
     color: blue;
